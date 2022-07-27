@@ -6,8 +6,8 @@ import os
 
 path = os.path.dirname(__file__)
 
-data=pickle.load(open(r'C:\Users\Tejes\Downloads\Air_quality_pred\data.pkl', 'rb'))
-model=pickle.load(open(r"C:\Users\Tejes\Downloads\Air_quality_pred\model.pkl", 'rb'))
+data=pickle.load(open('data.pkl', 'rb'))
+model=pickle.load(open('model.pkl', 'rb'))
 
 st.title("Air Quality Forecasting")
 
